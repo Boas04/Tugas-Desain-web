@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('satudua.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; 
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+#session-container {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 15px;
+    border-radius: 8px; 
+}
+
+#session-container input {
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #333; 
+}
+
+form, .buku {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 5px 0;
+    padding: 8px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #ff6347; 
+}
+
+#daftar-buku, #buku-favorit {
+    border: 1px solid #fff; 
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 8px;
+}
+
+.buku {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+    padding: 10px 0;
+}
+
+.buku:last-child {
+    border-bottom: none;
+}
+
+.buku p {
+    margin: 0;
+    color: #fff;
+}
+
+.buku button {
+    margin-top: 10px;
+    background-color: #ff4500; 
+    color: #fff;
+}
+
+.buku button:hover {
+    background-color: #ff6347;
+}
+
+@media (max-width: 600px) {
+    input, button {
+        width: 100%;
+        margin-right: 0;
+    }
+}
